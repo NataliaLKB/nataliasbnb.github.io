@@ -30,6 +30,11 @@ a, a:hover {
 	text-decoration: none;
 	color: black;
 }
+
+.row .row .row {
+	margin-bottom: 0;
+}
+
 .container, .container:before, .container:after {
 	background-color: white;
 	padding: 4em;
