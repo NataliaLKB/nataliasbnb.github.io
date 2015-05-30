@@ -1,11 +1,35 @@
 h1 {
+	font-size: 2.5em;
+	font-weight: 500;
 	text-align: center;
+	padding: 0.2em 0;
+	margin: 0;
+	margin-bottom: 1em;
+	border-bottom: 3px solid #ddd;
+}
+
+h3 {
+	font-size: 1.6em;
+	font-weight: 400;
+	padding: 0.2em 1em;
+	margin: 1em 0;
+	display: inline-block;
+	border-bottom: 2px solid #ddd;
+}
+
+p, h5 {
+	margin: 0.2em 0;
+	color: black;
 }
 
 html {
 	background-color: rgb(168, 249, 245);
 }
 
+a, a:hover {
+	text-decoration: none;
+	color: black;
+}
 .container, .container:before, .container:after {
 	background-color: white;
 	padding: 4em;
@@ -17,7 +41,7 @@ html {
 .container {
 	position: relative;
 	padding: 6em 6%;
-	margin: 35px auto;
+	margin: 3em auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,18 +71,4 @@ html {
 	transform: rotateZ(0.5deg);
 	left: 5px;
 	top: 3px;
-}
-
-.container h1 {
-	font-size: 1.8em;
-	font-weight: normal;
-	text-align: center;
-	padding: 0.2em 0;
-	margin: 0;
-	border-bottom: 2px solid #ddd;
-}
-
-.container p {
-	text-align: left;
-	margin: 1.5em 0;
 }
