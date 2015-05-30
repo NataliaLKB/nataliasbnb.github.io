@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+}
+
+html {
+	background-color: rgb(168, 249, 245);
+}
+
+.container {
+	padding: 4em;
+}
